@@ -6,17 +6,72 @@ font-weight: 300;
 line-weidght: 1.5;
 }
 body{
+	background-image:"bcard-ref1.png"
+	background-position: center top;
+	background-size:cover;
 	font-family:'Lato', sans-serif;
 	margin:0;
 }
 .page-title{
 	text-align: center;
-	font-weight: 100;
+	font-weight: 200;
 }
-.desc{
-	border: 1px solid #000;
-	text-align: center;
-	padding:30px;
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 0;
+}
+
+.gallery-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.gallery-item2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.gallery-item3 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.gallery-item4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+
+
+.gallery-item5 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 7;
+    grid-row-end: 11;
+}
+
+.gallery-item6 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+
+.thumbnail{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 nav {
 	background-color:#FFF;
