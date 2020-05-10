@@ -1,0 +1,44 @@
+html,body{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+font-weight: 300;
+line-weidght: 1.5;
+}
+body{
+	font-family:'Lato', sans-serif;
+	margin:0;
+}
+.page-title{
+	text-align: center;
+	font-weight: 100;
+}
+.desc{
+	border: 1px solid #000;
+	text-align: center;
+	padding:30px;
+}
+nav {
+	background-color:#FFF;
+}
+nav li{
+	margin: 0;
+	padding:0 10px;
+	display: inline;
+	float:right;
+}
+nav ul{
+	display:inline;
+}
+nav a{
+	height:60px;
+	line-height: 60px;
+	color: #204156;
+	text-decoration: none;
+}
+li.arc{
+        height:60px;
+        line-height: 60px;
+        color: #204156;
+        text-decoration: none;
+}
