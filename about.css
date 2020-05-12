@@ -1,0 +1,80 @@
+html,body{
+min-height: 100%;
+display: flex;
+flex-direction: column;
+background-color:rgb(248,249,243);
+}
+
+body{
+  margin:0;
+  font-family:"TeX Gyre Pagella", sans-serif;
+}
+
+div{
+padding:30px;
+color:rgb(64, 37, 17);
+}
+img {
+display:block;
+width:200px;
+margin-left:auto;
+margin-right:auto;
+}
+h1 {
+text-align:center;
+}
+p{
+text-align:center;
+
+}
+nav {
+	background-color:#FFF;
+	font-family:"Lato", sans-serif;
+	font-weight: 300;
+	line-weight: 1.5;
+}
+nav li{
+	margin: 0;
+	padding:0 10px;
+	display: inline;
+	float:right;
+}
+nav ul{
+	display:inline;
+}
+nav a.bar{
+	height:60px;
+	line-height: 60px;
+	color: #204156;
+	text-decoration: none;
+}
+li.arc{
+        height:60px;
+        line-height: 60px;
+        color: #204156;
+        text-decoration: none;
+}
+
+a{
+text-decoration:none;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
